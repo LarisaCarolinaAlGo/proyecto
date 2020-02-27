@@ -11,10 +11,11 @@ body{
   padding: 100px; /*espacio alrededor texto*/
   background-image: url("https://i.pinimg.com/564x/4e/9b/cd/4e9bcd6e829921b47987833b112f4ad7.jpg"); /*color botón*/
   background-size: 400px;
-  color: #00FFBF; /*color texto*/
+  color: #F7BE81; /*color texto*/
   font-weight: 600;
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
+  text-shadow: 2px 2px 2px #424242;
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40px;
   border-radius: 50px; /*bordes redondos*/
@@ -25,10 +26,10 @@ body{
   padding: 100px; /*espacio alrededor texto*/
   background-image: url("https://i.pinimg.com/474x/d5/a2/c7/d5a2c777903aa0c7ac5837a372b2c8e5.jpg" ); /*color botón*/
   background-size: 400px;
-  color: #000000; /*color texto*/
+  color: #F7BE81; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
-  text-shadow: 2px,2px,2px;
+  text-shadow: 2px 2px 2px #424242;
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40px;
   border-radius: 50px; /*bordes redondos*/
@@ -42,10 +43,10 @@ body{
   padding-bottom: 100px;
   background-image: url("https://cdn.shopify.com/s/files/1/1051/3728/products/41BoGe4EAaL._AC_800x.jpg?v=1571467620");
   background-size: 400px;
-  color:tomato;
+  color:#F7BE81;
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
-  text-shadow: 20px 20px 20px #424242;
+  text-shadow: 2px 2px 2px #424242;
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40px;
   font-weight: 600;

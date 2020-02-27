@@ -1,0 +1,75 @@
+body{
+  background-image: url("https://i.pinimg.com/564x/09/ff/bb/09ffbb3c86516d5e0664cc0a0ad9376d.jpg");
+}
+nav {
+  height: 70px;
+}
+aside {
+  float:left;
+  margin-left: 17%;
+  background-color: #380B61;
+  width: 17%;
+  height: 500px;
+  style: #FFFFFF;
+}
+main {
+  margin-left: 34%;
+  width: 50%;
+  height: 500px;
+}
+section {
+  margin-left: 40px;
+  background-color:#610B0B;
+  width: 550px;
+  height: 200px;
+}
+article {
+  margin-top: 20px ;
+  margin-left: 40px ;
+  background-color:#0B615E;
+  width:550px;
+  height: 100px;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+}
+a {
+  margin-top: 100px;
+  margin-left: 25px;
+}
+h1{
+  color:#FFFFFF;
+}
+span{
+  color:#FFFFFF;
+
+}
+.nasa{
+  color:#FFFFFF;
+}
+.youtube{
+  color:#FFFFFF;
+}
+.oldSpice {
+  color:#FFFFFF;
+  margin-top: 3px;
+  margin-left: 100px;
+}
+.publicidad {
+  color:#FFFFFF;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.colores{
+  color:#FFFFFF;
+  margin-left: 500px;
+  margin-top:25px;
+}
+.nav{
+  color: #FFFFFF;
+  margin-left: 600px;
+  font-family: georgia;
+  font-size: 50px;
+}

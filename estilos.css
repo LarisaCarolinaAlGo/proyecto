@@ -1,11 +1,15 @@
 body{
   background-color: #000000;
 }
+.main{
+  height: 10000px;
+  width: 100%;
+}
 .title{
   color: #FFFFFF;
   font-family: cursive;
   font-size: 50px;
-  margin-left: 350px;
+
 }
 .botonCrayola{
   padding: 100px; /*espacio alrededor texto*/
@@ -19,9 +23,8 @@ body{
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40px;
   border-radius: 50px; /*bordes redondos*/
-
-
 }
+
 .botonTombow{
   padding: 100px; /*espacio alrededor texto*/
   background-image: url("https://i.pinimg.com/474x/d5/a2/c7/d5a2c777903aa0c7ac5837a372b2c8e5.jpg" ); /*color botón*/
@@ -33,9 +36,7 @@ body{
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40px;
   border-radius: 50px; /*bordes redondos*/
-  margin-left: 35px;
 }
-
 .stabiloBoss{
   padding-top: 100px;
   padding-left: 50px;
@@ -51,6 +52,48 @@ body{
   font-size: 40px;
   font-weight: 600;
   border-radius: 50px; /*bordes redondos*/
-  margin-left: 35px;
+}
 
+.stabiloPoint88{
+  padding-top: 100px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 100px; /*espacio alrededor texto*/
+  background-image: url("https://i.pinimg.com/474x/b0/2c/1e/b02c1e511366816f57e8e22550518320.jpg"); /*color botón*/
+  background-size: 400px;
+  color: #F7BE81; /*color texto*/
+  font-weight: 600;
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  text-shadow: 2px 2px 2px #424242;
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  font-size: 40px;
+  border-radius: 50px; /*bordes redondos*/
+/*acercar el mouse a un boton y que se despliegue su informacion*/
+/*usar un div quese haga mas grande cundo se acerque el mouse*/
+
+}
+.crayola{
+  width: 395px;
+  height: 245px;
+  padding: 0.5rem;
+  display: inline-block;
+}
+.tombow{
+  width: 385px;
+  height: 245px;
+  padding: 0.5rem;
+  display: inline-block;
+}
+.stabilo_boss{
+  width: 400px;
+  height: 245px;
+  padding: 0.5rem;
+  display: inline-block;
+}
+.point88{
+  width: 400px;
+  height: 245px;
+  padding: 0.5rem;
+  display: inline-block;
 }

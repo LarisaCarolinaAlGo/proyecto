@@ -9,20 +9,32 @@ body{
   color: #FFFFFF;
   font-family: cursive;
   font-size: 50px;
+  animation-name: title;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
 
+@keyframes title {
+  from {color: FFFFFF}
+  to {color: blue}
 }
 .botonCrayola{
   padding: 100px; /*espacio alrededor texto*/
   background-image: url("https://i.pinimg.com/564x/4e/9b/cd/4e9bcd6e829921b47987833b112f4ad7.jpg"); /*color botón*/
   background-size: 400px;
   color: #F7BE81; /*color texto*/
-  font-weight: 600;
+  font-weight: 600px;
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   text-shadow: 2px 2px 2px #424242;
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40px;
   border-radius: 50px; /*bordes redondos*/
+}
+
+.bootonCrayola:hover {
+  width: 1000px;
+  height: 1000px;
 }
 
 .botonTombow{
@@ -49,7 +61,7 @@ body{
   text-transform: uppercase; /*capitalización texto*/
   text-shadow: 2px 2px 2px #424242;
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-  font-size: 40px;
+  font-size: 40;
   font-weight: 600;
   border-radius: 50px; /*bordes redondos*/
 }
@@ -70,7 +82,9 @@ body{
   font-size: 40px;
   border-radius: 50px; /*bordes redondos*/
 /*acercar el mouse a un boton y que se despliegue su informacion*/
-/*usar un div quese haga mas grande cundo se acerque el mouse*/
+/*usar un div quese haga mas grande
+/*cundo se acerque el mouse
+over que cambie texto y se expanda mi cuadro get element b*/
 
 }
 .crayola{

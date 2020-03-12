@@ -1,13 +1,12 @@
 function big(x){
   x.style.fontFamily = "cursive";
-  var size = document.getElementById("crayolaSize");
-  size.style.height = "10px"
-  size.style.width = "10px"
+  x.style.height = "64px";
+  x.style.width = "64px";
 }
 function normal(y){
  y.style.fontFamily = "Helvetica"
- var size= document.getElementById("normalSize");
- size.style.height = "255.53px"
- size.style.width = "388.19px"
 
 }
+ function nuevo(img){
+   img.style.width= "1000px"
+ }

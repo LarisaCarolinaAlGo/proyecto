@@ -12,16 +12,15 @@ body{
   animation-name: title;
   animation-duration: 5s;
   animation-fill-mode: forwards;
+
 }
+
 
 @keyframes title {
   from {color: FFFFFF}
   to {color: blue}
 }
 .botonCrayola{
-  padding: 100px; /*espacio alrededor texto*/
-  background-image: url("https://i.pinimg.com/564x/4e/9b/cd/4e9bcd6e829921b47987833b112f4ad7.jpg"); /*color botón*/
-  background-size: 400px;
   color: #F7BE81; /*color texto*/
   font-weight: 600px;
   text-decoration: none; /*decoración texto*/
@@ -29,10 +28,9 @@ body{
   text-shadow: 2px 2px 2px #424242;
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40px;
-  border-radius: 50px; /*bordes redondos*/
 }
 
-.bootonCrayola:hover {
+.botonCrayola:hover {
   width: 1000px;
   height: 1000px;
 }
@@ -92,6 +90,9 @@ over que cambie texto y se expanda mi cuadro get element b*/
   height: 245px;
   padding: 0.5rem;
   display: inline-block;
+  background-image: url("https://i.pinimg.com/564x/4e/9b/cd/4e9bcd6e829921b47987833b112f4ad7.jpg"); /*color botón*/
+  background-size: 400px;
+  border-radius: 50px; /*bordes redondos*/
 }
 .tombow{
   width: 385px;

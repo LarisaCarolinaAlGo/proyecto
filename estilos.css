@@ -16,10 +16,6 @@ body{
 }
 
 
-@keyframes title {
-  from {color: FFFFFF}
-  to {color: blue}
-}
 .botonCrayola{
   color: #F7BE81; /*color texto*/
   font-weight: 600px;
@@ -28,32 +24,20 @@ body{
   text-shadow: 2px 2px 2px #424242;
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40px;
+  font-weight: 600;
 }
 
-.botonCrayola:hover {
-  width: 1000px;
-  height: 1000px;
-}
 
 .botonTombow{
-  padding: 100px; /*espacio alrededor texto*/
-  background-image: url("https://i.pinimg.com/474x/d5/a2/c7/d5a2c777903aa0c7ac5837a372b2c8e5.jpg" ); /*color botón*/
-  background-size: 400px;
   color: #F7BE81; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   text-shadow: 2px 2px 2px #424242;
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40px;
-  border-radius: 50px; /*bordes redondos*/
+  font-weight: 600;
 }
 .stabiloBoss{
-  padding-top: 100px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 100px;
-  background-image: url("https://cdn.shopify.com/s/files/1/1051/3728/products/41BoGe4EAaL._AC_800x.jpg?v=1571467620");
-  background-size: 400px;
   color:#F7BE81;
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
@@ -61,16 +45,9 @@ body{
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40;
   font-weight: 600;
-  border-radius: 50px; /*bordes redondos*/
 }
 
 .stabiloPoint88{
-  padding-top: 100px;
-  padding-left: 17px;
-  padding-right: 17px;
-  padding-bottom: 100px; /*espacio alrededor texto*/
-  background-image: url("https://i.pinimg.com/474x/b0/2c/1e/b02c1e511366816f57e8e22550518320.jpg"); /*color botón*/
-  background-size: 400px;
   color: #F7BE81; /*color texto*/
   font-weight: 600;
   text-decoration: none; /*decoración texto*/
@@ -78,7 +55,6 @@ body{
   text-shadow: 2px 2px 2px #424242;
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40px;
-  border-radius: 50px; /*bordes redondos*/
 /*acercar el mouse a un boton y que se despliegue su informacion*/
 /*usar un div quese haga mas grande
 /*cundo se acerque el mouse
@@ -86,29 +62,37 @@ over que cambie texto y se expanda mi cuadro get element b*/
 
 }
 .crayola{
-  width: 395px;
+  width: 390px;
   height: 245px;
   padding: 0.5rem;
   display: inline-block;
   background-image: url("https://i.pinimg.com/564x/4e/9b/cd/4e9bcd6e829921b47987833b112f4ad7.jpg"); /*color botón*/
-  background-size: 400px;
   border-radius: 50px; /*bordes redondos*/
 }
 .tombow{
-  width: 385px;
+  margin-left: 20px;
+  width: 390px;
   height: 245px;
   padding: 0.5rem;
   display: inline-block;
+  background-image: url("https://i.pinimg.com/474x/d5/a2/c7/d5a2c777903aa0c7ac5837a372b2c8e5.jpg" ); /*color botón*/
+  border-radius: 50px;
 }
 .stabilo_boss{
+  margin-left: 20px;
   width: 400px;
   height: 245px;
   padding: 0.5rem;
   display: inline-block;
+  background-image: url("https://cdn.shopify.com/s/files/1/1051/3728/products/41BoGe4EAaL._AC_800x.jpg?v=1571467620");
+  border-radius: 50px;
 }
 .point88{
+  margin-top: 20px;
   width: 400px;
   height: 245px;
   padding: 0.5rem;
   display: inline-block;
+  background-image: url("https://i.pinimg.com/474x/b0/2c/1e/b02c1e511366816f57e8e22550518320.jpg"); /*color botón*/
+  border-radius: 50px; /*bordes redondos*/
 }

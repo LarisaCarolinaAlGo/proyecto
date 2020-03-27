@@ -10,3 +10,7 @@ function normal(y){
  function nuevo(img){
    img.style.width= "1000px"
  }
+function img_normal(imgN){
+  imgN.style.width= "410px"
+  imgN.style.height = "260.98px"
+}

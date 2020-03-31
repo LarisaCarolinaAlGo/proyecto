@@ -68,6 +68,7 @@ over que cambie texto y se expanda mi cuadro get element b*/
   display: inline-block;
   background-image: url("https://i.pinimg.com/564x/4e/9b/cd/4e9bcd6e829921b47987833b112f4ad7.jpg"); /*color botón*/
   border-radius: 50px; /*bordes redondos*/
+  box-shadow: 10px 5px 8px #888888
 }
 .tombow{
   margin-left: 20px;
@@ -80,7 +81,7 @@ over que cambie texto y se expanda mi cuadro get element b*/
 }
 .stabilo_boss{
   margin-left: 20px;
-  width: 400px;
+  width: 390px;
   height: 245px;
   padding: 0.5rem;
   display: inline-block;
@@ -89,10 +90,15 @@ over que cambie texto y se expanda mi cuadro get element b*/
 }
 .point88{
   margin-top: 20px;
-  width: 400px;
+  width: 390px;
   height: 245px;
   padding: 0.5rem;
   display: inline-block;
   background-image: url("https://i.pinimg.com/474x/b0/2c/1e/b02c1e511366816f57e8e22550518320.jpg"); /*color botón*/
   border-radius: 50px; /*bordes redondos*/
+}
+.crayola:hover{
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }

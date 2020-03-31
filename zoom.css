@@ -1,0 +1,16 @@
+.rojo{
+  margin-left: 400px;
+  width: 200px;
+  height: 250px;
+  padding: 0.5rem;
+  display: inline-block;
+  background-color: red;
+}
+.naranja{
+  
+  width: 100px;
+  height: 125px;
+  padding: 0.5rem;
+  display: inline-block;
+  background-color: #FF8000;
+}

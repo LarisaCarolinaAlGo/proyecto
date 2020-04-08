@@ -1,16 +1,10 @@
-.rojo{
-  margin-left: 400px;
-  width: 200px;
-  height: 250px;
-  padding: 0.5rem;
-  display: inline-block;
-  background-color: red;
+.crayola{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
-.naranja{
+.crayola > div {
   
-  width: 100px;
-  height: 125px;
-  padding: 0.5rem;
-  display: inline-block;
-  background-color: #FF8000;
 }

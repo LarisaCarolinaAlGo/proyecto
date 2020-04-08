@@ -55,13 +55,10 @@ body{
   text-shadow: 2px 2px 2px #424242;
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40px;
-/*acercar el mouse a un boton y que se despliegue su informacion*/
-/*usar un div quese haga mas grande
-/*cundo se acerque el mouse
-over que cambie texto y se expanda mi cuadro get element b*/
 
 }
 .crayola{
+  margin-left: 20px;
   width: 390px;
   height: 245px;
   padding: 0.5rem;
@@ -69,6 +66,10 @@ over que cambie texto y se expanda mi cuadro get element b*/
   background-image: url("https://i.pinimg.com/564x/4e/9b/cd/4e9bcd6e829921b47987833b112f4ad7.jpg"); /*color botón*/
   border-radius: 50px; /*bordes redondos*/
   box-shadow: 10px 5px 8px #888888
+  /*definir el margen y que no este tan pegadito de 20 px
+  que solo crezca a la derecha
+  jugar grid garden
+  que despligue breve info y al dar click mas informacion*/
 }
 .tombow{
   margin-left: 20px;

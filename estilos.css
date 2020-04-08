@@ -6,16 +6,18 @@ body{
   width: 100%;
 }
 .title{
+  display: flex;
   color: #FFFFFF;
   font-family: cursive;
   font-size: 50px;
-  animation-name: title;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-
+  justify-content: center;
 }
 
-
+.marcadores{
+  display: grid;
+  grid-template-columns: repeat(2, 415px);
+  grid-template-rows: repeat(2, 270px);
+}
 .botonCrayola{
   color: #F7BE81; /*color texto*/
   font-weight: 600px;
@@ -64,8 +66,6 @@ body{
   padding: 0.5rem;
   display: inline-block;
   background-image: url("https://i.pinimg.com/564x/4e/9b/cd/4e9bcd6e829921b47987833b112f4ad7.jpg"); /*color botón*/
-  border-radius: 50px; /*bordes redondos*/
-  box-shadow: 10px 5px 8px #888888
   /*definir el margen y que no este tan pegadito de 20 px
   que solo crezca a la derecha
   jugar grid garden
@@ -78,7 +78,6 @@ body{
   padding: 0.5rem;
   display: inline-block;
   background-image: url("https://i.pinimg.com/474x/d5/a2/c7/d5a2c777903aa0c7ac5837a372b2c8e5.jpg" ); /*color botón*/
-  border-radius: 50px;
 }
 .stabilo_boss{
   margin-left: 20px;
@@ -87,16 +86,15 @@ body{
   padding: 0.5rem;
   display: inline-block;
   background-image: url("https://cdn.shopify.com/s/files/1/1051/3728/products/41BoGe4EAaL._AC_800x.jpg?v=1571467620");
-  border-radius: 50px;
 }
 .point88{
-  margin-top: 20px;
+  margin-left: 20px;
   width: 390px;
   height: 245px;
   padding: 0.5rem;
   display: inline-block;
   background-image: url("https://i.pinimg.com/474x/b0/2c/1e/b02c1e511366816f57e8e22550518320.jpg"); /*color botón*/
-  border-radius: 50px; /*bordes redondos*/
+
 }
 .crayola:hover{
   -ms-transform: scale(1.2); /* IE 9 */

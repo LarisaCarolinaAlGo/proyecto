@@ -12,23 +12,27 @@ body{
   font-size: 50px;
   justify-content: center;
 }
-
+/*grid*/
 .marcadores{
   display: grid;
-  grid-template-columns: repeat(2, 415px);
-  grid-template-rows: repeat(2, 270px);
+  grid-template-columns:  repeat(3, 290px);
+  grid-template-rows: repeat(3, 290px);
 }
+.titulo{
+  grid-column: 1/3;
+  grid-row: 1/3;
+  color: #FFFFFF;
+}
+/*texto*/
 .botonCrayola{
   color: #F7BE81; /*color texto*/
-  font-weight: 600px;
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
-  text-shadow: 2px 2px 2px #424242;
+  text-shadow: 2px 2px 2px #424242; /*sombra texto*/
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 600;/*grosor texto*/
 }
-
 
 .botonTombow{
   color: #F7BE81; /*color texto*/
@@ -57,12 +61,12 @@ body{
   text-shadow: 2px 2px 2px #424242;
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40px;
-
 }
+/*diseno*/
 .crayola{
   margin-left: 20px;
-  width: 390px;
-  height: 245px;
+  width: 290px;
+  height: 290px;
   padding: 0.5rem;
   display: inline-block;
   background-image: url("https://i.pinimg.com/564x/4e/9b/cd/4e9bcd6e829921b47987833b112f4ad7.jpg"); /*color botón*/
@@ -73,24 +77,24 @@ body{
 }
 .tombow{
   margin-left: 20px;
-  width: 390px;
-  height: 245px;
+  width: 290px;
+  height: 290px;
   padding: 0.5rem;
   display: inline-block;
   background-image: url("https://i.pinimg.com/474x/d5/a2/c7/d5a2c777903aa0c7ac5837a372b2c8e5.jpg" ); /*color botón*/
 }
 .stabilo_boss{
   margin-left: 20px;
-  width: 390px;
-  height: 245px;
+  width: 290px;
+  height: 290px;
   padding: 0.5rem;
   display: inline-block;
   background-image: url("https://cdn.shopify.com/s/files/1/1051/3728/products/41BoGe4EAaL._AC_800x.jpg?v=1571467620");
 }
 .point88{
   margin-left: 20px;
-  width: 390px;
-  height: 245px;
+  width: 290px;
+  height: 290px;
   padding: 0.5rem;
   display: inline-block;
   background-image: url("https://i.pinimg.com/474x/b0/2c/1e/b02c1e511366816f57e8e22550518320.jpg"); /*color botón*/

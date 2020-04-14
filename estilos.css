@@ -5,26 +5,37 @@ body{
   height: 10000px;
   width: 100%;
 }
-.title{
-  display: flex;
-  color: #FFFFFF;
-  font-family: cursive;
-  font-size: 50px;
-  justify-content: center;
-}
 /*grid*/
 .marcadores{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   display: grid;
-  grid-template-columns:  repeat(3, 290px);
-  grid-template-rows: repeat(3, 290px);
+  grid-template-columns:  repeat(4, 215px);
+  grid-template-rows: repeat(4, 215px);
+  grid-column-gap:20px;
+  grid-row-gap: 20px;
+}
+.marcadores > div{
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 .titulo{
-  grid-column: 1/3;
-  grid-row: 1/3;
+  display: grid;
+  grid-column:2/4;
+  grid-row-start:2 ;
   color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  
 }
+
 /*texto*/
 .botonCrayola{
+  display: flex;
+  align-items: center;
   color: #F7BE81; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
@@ -35,6 +46,8 @@ body{
 }
 
 .botonTombow{
+  display: flex;
+  align-items: center;
   color: #F7BE81; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
@@ -44,6 +57,8 @@ body{
   font-weight: 600;
 }
 .stabiloBoss{
+  display: flex;
+  align-items: center;
   color:#F7BE81;
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
@@ -54,6 +69,8 @@ body{
 }
 
 .stabiloPoint88{
+  display: flex;
+  align-items: center;
   color: #F7BE81; /*color texto*/
   font-weight: 600;
   text-decoration: none; /*decoración texto*/
@@ -62,11 +79,26 @@ body{
   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
   font-size: 40px;
 }
+.artline-stik{
+  display: flex;
+  align-items: center;
+  color: #F7BE81; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  text-shadow: 2px 2px 2px #424242; /*sombra texto*/
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  font-size: 35px;
+  font-weight: 600;/*grosor texto*/
+}
 /*diseno*/
+
 .crayola{
-  margin-left: 20px;
-  width: 290px;
-  height: 290px;
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-column: 1/3;
+  width: 435px;
+  height: 200px;
   padding: 0.5rem;
   display: inline-block;
   background-image: url("https://i.pinimg.com/564x/4e/9b/cd/4e9bcd6e829921b47987833b112f4ad7.jpg"); /*color botón*/
@@ -76,31 +108,48 @@ body{
   que despligue breve info y al dar click mas informacion*/
 }
 .tombow{
-  margin-left: 20px;
-  width: 290px;
-  height: 290px;
+
+  width: 200px;
+  height: 200px;
   padding: 0.5rem;
   display: inline-block;
   background-image: url("https://i.pinimg.com/474x/d5/a2/c7/d5a2c777903aa0c7ac5837a372b2c8e5.jpg" ); /*color botón*/
 }
 .stabilo_boss{
-  margin-left: 20px;
-  width: 290px;
-  height: 290px;
+  display: grid;
+  grid-column-start: 4;
+  grid-row: 1/3;
+  width: 200px;
+  height: 435px;
   padding: 0.5rem;
   display: inline-block;
   background-image: url("https://cdn.shopify.com/s/files/1/1051/3728/products/41BoGe4EAaL._AC_800x.jpg?v=1571467620");
+  background-size: 400px 475px;
 }
 .point88{
-  margin-left: 20px;
-  width: 290px;
-  height: 290px;
+  width: 200px;
+  height: 200px;
   padding: 0.5rem;
   display: inline-block;
   background-image: url("https://i.pinimg.com/474x/b0/2c/1e/b02c1e511366816f57e8e22550518320.jpg"); /*color botón*/
 
 }
 .crayola:hover{
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+.tombow:hover{
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+.stabilo_boss:hover{
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+.point88:hover{
   -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2);

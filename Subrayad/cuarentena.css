@@ -1,0 +1,9 @@
+
+.letrasRojas{
+ color: #FF0000
+}
+.subrayar{
+  text-decoration: underline;
+}
+
+/*si el cursor esta encima de Luis entonces que el fodo se haga de color*/

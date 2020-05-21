@@ -1,0 +1,36 @@
+.container{
+  display: flex;
+}
+.numeroUno{
+  text-align: center;
+}
+.signo{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font-size: 22px;
+}
+.numeroDos {
+  text-align: center;
+}
+.igual {
+  text-align: center;
+  padding-top: 10px;
+  width: 80px;
+  height: 80px;
+}
+.resultado {
+  text-align: center;
+}
+.mas{
+  border-radius: 8px;
+  background-color: #DAFF91;
+}
+.menos{
+  border-radius: 8px;
+  background-color: #FF91CF;
+}
+.respuesta {
+  border-radius: 8px;
+  background-color: #FFB991;
+}

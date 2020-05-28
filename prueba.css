@@ -1,0 +1,13 @@
+.container{
+  display: flex;
+}
+.inputs{
+  width: 170px;
+  height: 50px;
+}
+.uno{
+  align-items: 
+}
+.dos{
+  align-items: baseline;
+}

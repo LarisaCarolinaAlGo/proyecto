@@ -1,6 +1,6 @@
 /*Navegador */
 .bg-image{
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOVSvA6d-BBT5HBkwCC2qOdtUtJ-iASPn9GwbP5FFcCcnaET07&usqp=CAU");
+  background-image: url("https://i.pinimg.com/474x/75/28/3f/75283ff39894a18b5f04cd235c913f54.jpg");
   width: 100%;
   height: 400px;
   background-position: center;
@@ -43,20 +43,21 @@ aside{
   background-color: white;
   box-shadow: 5px 5px 15px 10px #aaaaaa;
 }
-.fondo_mildliner{
+.fondo_Boss{
   margin-left: 40px;
   width: 200px;
   height: 200px;
   padding: 0.5rem;
   display: inline-block;
-  background-image: url("https://i.pinimg.com/474x/64/44/d8/6444d83644b6882e7a40975ed2bde912.jpg"); /*color botón*/
+  background-image: url("https://cdn.shopify.com/s/files/1/1051/3728/products/41BoGe4EAaL._AC_800x.jpg?v=1571467620"); /*color botón*/
   background-size: 230px 230px;
 }
-.mildliner{
-  margin-left: 20px;
+.boss{
+
   display: flex;
   align-items: center;
   color:#F7BE81;
+  text-align: center;
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   text-shadow: 2px 2px 2px #424242;
@@ -66,23 +67,23 @@ aside{
   width: 200px;
   height: 200px;
 }
-.fondo_sharpie{
+.fondo_twintone{
   margin-left: 40px;
   margin-top: 40px;
   width: 200px;
   height: 200px;
   padding: 0.5rem;
   display: inline-block;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsbVbX6ix7_X-NbFXBFGqpRe8xDLDXuNO-VmtuWrwz9XQVmjHh&usqp=CAU"); /*color botón*/
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgT41dJgssqzJx8Lscd4IbYzDWd0W05_SZh7tHO2w1H8cmkv61&usqp=CAU"); /*color botón*/
   background-size: 230px 230px;
   border-radius: 6px;
 }
-.sharpie{
-  margin-left: 20px;
+.tombow{
+  margin-left: 25px;
   display: flex;
   align-items: center;
   color:#F7BE81;
-  margin-left: 35px;
+  text-align: center;
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   text-shadow: 2px 2px 2px #424242;
@@ -92,18 +93,18 @@ aside{
   width: 200px;
   height: 200px;
 }
-.fondo_stabilo{
+.fondo_pentel{
   margin-left: 40px;
   margin-top: 40px;
   width: 200px;
   height: 200px;
   padding: 0.5rem;
   display: inline-block;
-  background-image: url("https://i.pinimg.com/474x/b0/2c/1e/b02c1e511366816f57e8e22550518320.jpg"); /*color botón*/
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9KRBnBmsI_pxyAKFhlWPc4DlEFNP3LY0JBloBQ9lvDtbPacnN&usqp=CAU"); /*color botón*/
   background-size: 230px 230px;
   border-radius: 6px;
 }
-.stabilo{
+.pentel{
   text-align: center;
   display: flex;
   align-items: center;

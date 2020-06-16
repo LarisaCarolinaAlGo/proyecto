@@ -1,11 +1,14 @@
+
 /*Navegador */
 .bg-image{
-  background-image: url("https://i.pinimg.com/474x/ca/19/d3/ca19d37c7681049df17cd7055890bdba.jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQIUQ2u5NO7lUAW3UZIvIElVrFpLry_hcb0n5Kvr_AIF5Agt82E&usqp=CAU");
   width: 100%;
-  height: 300px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  top: -190px;
+  position: absolute;
 }
 .bg-text{
   position: absolute;
@@ -20,7 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  color:#F7BE81;
+  color:#F7D581;
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   text-shadow: 2px 2px 2px #424242;
@@ -34,7 +37,6 @@
 aside{
   margin-left: 20px;
   margin-bottom: 40px;
-  margin-top: 50px;
   float: left;
   width: 300px;
   height: 900px;
@@ -42,22 +44,49 @@ aside{
   background-color: white;
   box-shadow: 5px 5px 15px 10px #aaaaaa;
 }
-.fondo_tombow{
+.text_sharpie{
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  color:#F7D581;
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  text-shadow: 2px 2px 2px #424242;
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  font-size: 30px;
+  font-weight:600;
+  width: 200px;
+  height: 200px;
+}
+.sharpie{
+  margin-left: 30px;
+  margin-top: 40px;
+  width: 200px;
+  height: 200px;
+  padding: 0.5rem;
+  display: inline-block;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsbVbX6ix7_X-NbFXBFGqpRe8xDLDXuNO-VmtuWrwz9XQVmjHh&usqp=CAU"); /*color botón*/
+  background-size: 230px 230px;
+  border-radius: 6px;
+}
+
+.tombow{
   margin-left: 40px;
   margin-top: 40px;
   width: 200px;
   height: 200px;
   padding: 0.5rem;
   display: inline-block;
-  background-image: url("https://i.pinimg.com/474x/d5/a2/c7/d5a2c777903aa0c7ac5837a372b2c8e5.jpg"); /*color botón*/
+  background-image: url("https://i.pinimg.com/474x/22/3e/31/223e3178ad57560779c93b29b08b50e9.jpg"); /*color botón*/
   background-size: 230px 230px;
   border-radius: 6px;
+
 }
-.tombow{
+.tombow_dual{
   margin-left: 20px;
   display: flex;
   align-items: center;
-  color:#F7BE81;
+  color:#F7D581;
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   text-shadow: 2px 2px 2px #424242;
@@ -67,47 +96,24 @@ aside{
   width: 200px;
   height: 200px;
 }
-.fondo_zig{
+
+.super_tips{
   margin-left: 40px;
   margin-top: 40px;
   width: 200px;
   height: 200px;
   padding: 0.5rem;
   display: inline-block;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRvx9kSLb2Xe9LndzqomSc29aLZ3-4vgMWeF3L20z-Aza9p3nqh&usqp=CAU"); /*color botón*/
+  background-image: url("https://i.pinimg.com/564x/4e/9b/cd/4e9bcd6e829921b47987833b112f4ad7.jpg"); /*color botón*/
   background-size: 230px 230px;
   border-radius: 6px;
 }
-.zig{
-  text-align: center;
+.crayola{
   display: flex;
   align-items: center;
-  color:#F7BE81;
-  text-decoration: none; /*decoración texto*/
-  text-transform: uppercase; /*capitalización texto*/
-  text-shadow: 2px 2px 2px #424242;
-  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-  font-size: 30px;
-  font-weight:600;
-  width: 200px;
-  height: 200px;
-}
-.fondo_pentel{
-  margin-left: 40px;
-  margin-top: 40px;
-  width: 200px;
-  height: 200px;
-  padding: 0.5rem;
-  display: inline-block;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9KRBnBmsI_pxyAKFhlWPc4DlEFNP3LY0JBloBQ9lvDtbPacnN&usqp=CAU"); /*color botón*/
-  background-size: 230px 230px;
-  border-radius: 6px;
-}
-.pentel{
   text-align: center;
-  display: flex;
-  align-items: center;
-  color:#F7BE81;
+  margin-left: 20px;
+  color:#F7D581;
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   text-shadow: 2px 2px 2px #424242;
@@ -157,16 +163,18 @@ main{
 }
 .resena{
   text-align: justify;
-  height: 400px;
+  height: 430px;
   width: 400px;
-  margin-top: 100px;
+  margin-top: 350px;
   margin-left: 125px;
   font-family: Bradley Hand ITC ;
   font-weight: 900;
   font-size: 20px;
   line-height: 50px;
 }
-
+.subtitulo{
+  margin-top: 60px;
+}
 hr{
   height: 1px ;
   width: 500px;
@@ -175,11 +183,11 @@ hr{
 }
 
 .compras{
-  background-color: #F7BE81;
+  background-color: #F7D581;
   width: 450px;
   text-align: center;
   margin-left: 280px;
-  margin-top: 15px;
+  margin-top: 35px;
   font-size: 30px;
   margin-bottom: 21px;
   margin-top: 20px;
@@ -192,23 +200,27 @@ hr{
 
 .numeros{
   display: flex;
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+  grid-template-rows: 60px 60px 60px;
+  grid-gap: 5px 5px;
   justify-content: space-around;
   margin-left: 220px;
-  margin-top: 40px;
+  margin-top: 30px;
   width: 580px;
 
 }
 .paquetitos{
-  padding: 1rem;
-  width: 30px;
-  height: 30px;
+
+  padding: 10px;
   align-items: center;
   text-align: center;
   display: inline-block;
-  background-color: #F7D581;
+  background-color: #F7BE81;
   border-radius: 20px;
   text-decoration: none;
   text-transform: uppercase;
+  font-family: Gabriola;
   color: black;
   transition: 0.3s;
   font-size: 25px;

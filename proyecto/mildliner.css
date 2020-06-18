@@ -1,15 +1,11 @@
 /*Navegador */
 .bg-image{
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT457bGQtyRt_k021yZ56xHrjR0MeNWDKI0WmdgLtB7AkikF-tA&usqp=CAU");
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTQ8vLlQh15hz2sycaYpVE19pRpgEu2ieRKEJ2S1DKoWEskgPaY&usqp=CAU");
   width: 100%;
-  height: 500px;
+  height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  top: -190px;
-  position: absolute;
 }
 .bg-text{
   position: absolute;
@@ -38,62 +34,13 @@
 aside{
   margin-left: 20px;
   margin-bottom: 40px;
+  margin-top: 50px;
   float: left;
   width: 300px;
   height: 900px;
   border: 1px solid #BFBFBF;
   background-color: white;
   box-shadow: 5px 5px 15px 10px #aaaaaa;
-}
-.fondo_mildliner{
-  margin-left: 40px;
-  margin-top: 40px;
-  width: 200px;
-  height: 200px;
-  padding: 0.5rem;
-  display: inline-block;
-  background-image: url("https://i.pinimg.com/474x/64/44/d8/6444d83644b6882e7a40975ed2bde912.jpg"); /*color botón*/
-  background-size: 230px 230px;
-  border-radius: 6px;
-}
-.mildliner{
-  margin-left: 20px;
-  display: flex;
-  align-items: center;
-  color:#F7BE81;
-  text-decoration: none; /*decoración texto*/
-  text-transform: uppercase; /*capitalización texto*/
-  text-shadow: 2px 2px 2px #424242;
-  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-  font-size: 30px;
-  font-weight:600;
-  width: 200px;
-  height: 200px;
-}
-.fondo_tombow{
-  margin-left: 40px;
-  margin-top: 40px;
-  width: 200px;
-  height: 200px;
-  padding: 0.5rem;
-  display: inline-block;
-  background-image: url("https://i.pinimg.com/474x/d5/a2/c7/d5a2c777903aa0c7ac5837a372b2c8e5.jpg"); /*color botón*/
-  background-size: 230px 230px;
-  border-radius: 6px;
-}
-.tombow{
-  margin-left: 20px;
-  display: flex;
-  align-items: center;
-  color:#F7BE81;
-  text-decoration: none; /*decoración texto*/
-  text-transform: uppercase; /*capitalización texto*/
-  text-shadow: 2px 2px 2px #424242;
-  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-  font-size: 30px;
-  font-weight:600;
-  width: 200px;
-  height: 200px;
 }
 .fondo_stabilo{
   margin-left: 40px;
@@ -102,11 +49,64 @@ aside{
   height: 200px;
   padding: 0.5rem;
   display: inline-block;
-  background-image: url("https://cdn.shopify.com/s/files/1/1051/3728/products/41BoGe4EAaL._AC_800x.jpg?v=1571467620"); /*color botón*/
+  background-image: url("https://i.pinimg.com/474x/2a/8f/18/2a8f18638c976f411d2b2afb2f0ca291.jpg"); /*color botón*/
   background-size: 230px 230px;
   border-radius: 6px;
 }
 .stabilo{
+  margin-left: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color:#F7BE81;
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  text-shadow: 2px 2px 2px #424242;
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  font-size: 30px;
+  font-weight:600;
+  width: 200px;
+  height: 200px;
+}
+.fondo_crayola{
+  margin-left: 40px;
+  margin-top: 40px;
+  width: 200px;
+  height: 200px;
+  padding: 0.5rem;
+  display: inline-block;
+  background-image: url("https://i.pinimg.com/474x/c0/2e/99/c02e99e2fcf87125b2839aa46c4fd76e.jpg"); /*color botón*/
+  background-size: 230px 230px;
+  border-radius: 6px;
+}
+.crayola{
+  text-align: center;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  color:#F7BE81;
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  text-shadow: 2px 2px 2px #424242;
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  font-size: 30px;
+  font-weight:600;
+  width: 200px;
+  height: 200px;
+}
+.fondo_twintone{
+  margin-left: 40px;
+  margin-top: 40px;
+  width: 200px;
+  height: 200px;
+  padding: 0.5rem;
+  display: inline-block;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgT41dJgssqzJx8Lscd4IbYzDWd0W05_SZh7tHO2w1H8cmkv"); /*color botón*/
+  background-size: 230px 230px;
+  border-radius: 6px;
+}
+.twintone{
+  margin-left: 25px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -162,7 +162,7 @@ main{
   text-align: justify;
   height: 400px;
   width: 400px;
-  margin-top: 350px;
+  margin-top: 100px;
   margin-left: 125px;
   font-family: Bradley Hand ITC ;
   font-weight: 900;

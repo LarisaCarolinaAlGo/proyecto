@@ -185,9 +185,10 @@ hr{
   margin-top: 20px;
 }
 
-.paquetes{
-  margin-left: 150px;
-  font-family: Forte;
+.paquete{
+  font-family: Broadway;
+  text-align: center;
+  font-size: 25px;
 }
 
 .numeros{
@@ -199,11 +200,10 @@ hr{
 
 }
 .paquetitos{
+
+  font-family: HandwritingCR;
   padding: 1rem;
-  width: 30px;
-  height: 30px;
   align-items: center;
-  text-align: center;
   display: inline-block;
   background-color: #F7D581;
   border-radius: 20px;
@@ -211,7 +211,7 @@ hr{
   text-transform: uppercase;
   color: black;
   transition: 0.3s;
-  font-size: 25px;
+  font-size: 20px;
 }
 .paquetitos:hover {
   background-color: #F79581;

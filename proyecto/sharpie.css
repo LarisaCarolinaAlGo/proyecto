@@ -201,8 +201,7 @@ hr{
 }
 .paquetitos{
   padding: 1rem;
-  width: 30px;
-  height: 30px;
+
   align-items: center;
   text-align: center;
   display: inline-block;

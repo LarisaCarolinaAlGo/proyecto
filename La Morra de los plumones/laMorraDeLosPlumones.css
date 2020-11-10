@@ -1,0 +1,15 @@
+.studygramer{
+
+}
+
+.titulo{
+  display: flex;
+  background-image: url("./acuarela1.png");
+  background-size: 100% 400px;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+}
+.laMorraDeLosPlumones{
+  font-family: waltograph;
+}

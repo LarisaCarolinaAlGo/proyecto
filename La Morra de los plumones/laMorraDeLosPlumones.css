@@ -1,15 +1,62 @@
-.studygramer{
-
-}
 
 .titulo{
   display: flex;
-  background-image: url("./acuarela1.png");
-  background-size: 100% 400px;
-  height: 400px;
+  height: 200px;
   width: 100%;
   align-items: center;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 2px #000000
 }
+
 .laMorraDeLosPlumones{
-  font-family: waltograph;
+  width: 100%;
+  text-align: center;
+  font-family: "Buttercup Script";
+  font-size: 100px;
+}
+
+.boton_studygramer{
+  background-image: url("./banner2.png");
+  background-size: 350px 150px;
+  width: 350px;
+  height: 150px;
+
+}
+.studygramer_text{
+  display: flex;
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 125px;
+  font-family: "sweet purple";
+  font-size: 40px;
+  color: black;
+}
+
+.boton_cuadernos{
+  background-image: url("./banner1.png");
+  background-size: 350px 150px;
+  width: 350px;
+  height: 150px;
+}
+
+.cuadernos_text{
+  display: flex;
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 125px;
+  font-family: "sweet purple";
+  font-size: 40px;
+  color: black;
+
+}
+
+.banners{
+  display: flex;
+  justify-content: space-around;
 }

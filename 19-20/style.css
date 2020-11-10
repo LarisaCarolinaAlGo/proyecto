@@ -1,0 +1,12 @@
+.boton{
+  background-color: violet;
+  color: white;
+  width: 150px;
+  text-align: center;
+
+}
+
+.boton :hover{
+    background-color: black;
+    cursor: pointer;
+}

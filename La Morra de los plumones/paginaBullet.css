@@ -1,5 +1,14 @@
+a{
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  font-family: Just tell me what;
+  color: black;
+  font-size: 35px;
+}
+
 
 nav{
+
   display: flex;
   align-items: center;
   justify-content:space-between;
@@ -11,6 +20,7 @@ nav{
 .masBullet{
   font-family: "Buttercup Script";
   display: flex;
+  font-size: 50px;
   text-decoration: none;
   border-radius: 80px;
   padding: 5px 5px;
@@ -18,10 +28,6 @@ nav{
   height: 100px;
 }
 
-.textoB{
-  text-decoration: none;
-  color: black;
-}
 
 .masCuaderno{
   text-decoration: none;
@@ -33,8 +39,21 @@ nav{
   height: 50px;
 }
 
-.textoC{
-  text-align: right;
-  text-decoration: none;
+.texto{
   color: black;
+  text-decoration-style: none;
+}
+
+.textoBullet{
+  animation: fluido 10s ease-in-out infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 300%;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes fluido {
+    0% { background-position: 0 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0 50% }
 }

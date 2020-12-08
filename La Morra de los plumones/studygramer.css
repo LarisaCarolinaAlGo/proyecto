@@ -1,0 +1,90 @@
+body{
+  background-color: black;
+}
+
+div{
+  border-radius: 50px;
+}
+
+
+
+.gridContainer{
+
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows:  50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+
+.bolita_plumones{
+  background-image: url("./fondoPlumones.png");
+  background-size: cover;
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 8;
+  width: 225px;
+  background-color: yellow;
+}
+
+.bolita_2{
+  grid-column-start:3;
+  grid-row-start: 2;
+  background-color: blue;
+}
+
+.bolita_titulos{
+  grid-column-start:12;
+  grid-column-end:14;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: red;
+  }
+
+.bolita_4{
+  grid-column-start:4;
+  grid-row-start: 9;
+  background-color: blue;
+}
+
+.bolita_5{
+  grid-column-start:11;
+  grid-row-start: 6;
+  background-color: blue;
+}
+
+.bolita_apuntes{
+  grid-column-start:11;
+  grid-column-end:14;
+  grid-row-start: 8;
+  grid-row-end: 11;
+  background-color: green;
+  border-radius: 75px;
+
+}
+
+.bolita_7{
+  grid-column-start:16;
+  grid-row-start: 9;
+  background-color: blue;
+}
+
+.bolita_cuaderno{
+  grid-column-start:18;
+  grid-column-end:22;
+  grid-row-start: 3;
+  grid-row-end: 7;
+  background-color: green;
+  border-radius: 100px;
+}
+
+.bolita_9{
+  grid-column-start:15;
+  grid-row-start: 4;
+  background-color: blue;
+}
+
+.bolita_10{
+  grid-column-start: 22;
+  grid-row-start: 8;
+  background-color: blue;
+}

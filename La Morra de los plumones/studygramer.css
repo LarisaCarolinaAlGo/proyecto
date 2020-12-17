@@ -23,68 +23,80 @@ div{
   grid-row-start: 4;
   grid-row-end: 8;
   width: 225px;
-  background-color: yellow;
+
 }
 
 .bolita_2{
+  grid-column-end:5;
   grid-column-start:3;
   grid-row-start: 2;
-  background-color: blue;
+  grid-row-end: 5;
+  background-size: contain;
+  background-image: url("https://i.pinimg.com/236x/c8/7e/94/c87e94f4aa63f63b0cbdbb89501223f6.jpg");
 }
 
 .bolita_titulos{
-  grid-column-start:12;
+  background-image: url("./titulos.png");
+  background-size: cover;
+  grid-column-start:11;
   grid-column-end:14;
   grid-row-start: 2;
-  grid-row-end: 4;
-  background-color: red;
+  grid-row-end: 5;
   }
 
 .bolita_4{
   grid-column-start:4;
   grid-row-start: 9;
-  background-color: blue;
+  background-image: url("https://i.pinimg.com/236x/6a/11/a5/6a11a5327a91e1d76e2df2bc21e740bd.jpg");
+
 }
 
 .bolita_5{
   grid-column-start:11;
   grid-row-start: 6;
-  background-color: blue;
+  background-image: url("https://i.pinimg.com/236x/c8/7e/94/c87e94f4aa63f63b0cbdbb89501223f6.jpg");
+  
 }
 
 .bolita_apuntes{
+  background-image: url("./fondoApuntes.png");
+  background-size: cover;
   grid-column-start:11;
-  grid-column-end:14;
+  grid-column-end:16;
   grid-row-start: 8;
-  grid-row-end: 11;
-  background-color: green;
-  border-radius: 75px;
+  grid-row-end: 12;
+
+
 
 }
 
 .bolita_7{
-  grid-column-start:16;
-  grid-row-start: 9;
-  background-color: blue;
+  grid-column-start:17;
+  grid-column-end:19;
+  grid-row-start: 8;
+  grid-row-end: 10;
+  background-image: url("https://i.pinimg.com/236x/6a/11/a5/6a11a5327a91e1d76e2df2bc21e740bd.jpg");
+  background-size: cover;
 }
 
 .bolita_cuaderno{
+  background-image: url("./cuadernos.png");
   grid-column-start:18;
   grid-column-end:22;
   grid-row-start: 3;
   grid-row-end: 7;
-  background-color: green;
-  border-radius: 100px;
+
+
 }
 
 .bolita_9{
   grid-column-start:15;
   grid-row-start: 4;
-  background-color: blue;
+
 }
 
 .bolita_10{
   grid-column-start: 22;
   grid-row-start: 8;
-  background-color: blue;
+
 }

@@ -1,0 +1,191 @@
+
+body{
+    margin: 0;
+    display: flex;
+}
+
+.barraHerramientas{
+    float: left;
+    width: 225px;
+    height: 560px;
+
+    background-color: #E9E4ED;
+
+}
+
+
+
+.ladoDer{
+    width: 490px;
+    height: 560px;
+
+    margin-left: 30px;
+
+}
+
+
+.textoH{
+    margin-top: 20px;
+    margin-left: 40px;
+
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+.herramientas{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 40px;
+
+    border-radius: 8px;
+
+    background-color: #D6C6E1;
+    
+}
+
+.iconoA{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 4.5px;
+
+    border-radius: 5px;
+
+}
+
+.iconoB{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 4.5px;
+
+    border-radius: 5px;
+
+
+}
+
+.iconoC{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 4.5px;
+
+    border-radius: 5px;
+
+}
+
+.enlace{
+    text-decoration: none;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    color: black;
+
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+/* parte izquierda */
+
+.ladoIzq{
+    width: 490px;
+    height: 560px;
+
+    margin-left: 30px;
+
+}
+
+.usuario{
+    width: 450px;
+    height: 100px;
+    
+    margin-left: 19px;
+    margin-top: 50px;
+
+}
+
+.hello{
+    
+    font-size: 36px;
+    font-family: Montserrat;
+}
+
+.motivationPhrase{
+    margin-top: 8px;
+
+    font-size: 18px;
+    font-family: Montserrat Light;
+}
+
+.botones{
+    display: flex;
+
+    width: 450px;
+    height: 80px;
+
+    margin-top: 25px;
+    margin-left: 19px;
+
+}
+
+.botonA{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+    height: 45px;
+    
+    border-radius: 10px;
+    background-color: #8B5FBF;
+    font-family: Roboto Light;
+}
+
+.botonB{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+    height: 45px;
+    margin-left: 10px;
+    
+    border-radius: 10px;
+    background-color: #F4F4FE;
+    font-family: Roboto Light;
+}
+
+.imagen{
+
+    width: 450px;
+    height: 250px;
+
+    margin-left: 19px;
+    margin-top: 10px;
+
+    border-radius: 5px;
+    background-size: cover;
+    background-image: url("imagenWork.jpg");
+}
+
+
+
+
+.graficas{
+    width: 480px;
+    height: 180px;
+
+    margin-left: 5px;
+    margin-top: 20px;
+
+    background-color: red;
+}
+

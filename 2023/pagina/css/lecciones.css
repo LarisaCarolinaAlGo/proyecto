@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    display: flex;
+    font-family: roboto condensed;
+}
+
+.barraHerramientas {
+    float: left;
+    width: 120px;
+    height: 520px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    background-color: #E9E4ED;
+    border-radius: 20px;
+
+}
+
+.btnb{
+    background-color: #D6C6E1;
+}
+
+.btnc{
+    background-color: #F5F3F7;
+
+}
+
+
+
+
+.textoH {
+    margin-top: 20px;
+    margin-left: 40px;
+
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+.herramientas {
+    display: flex;
+    width: 60px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+    border-radius: 8px;
+
+
+}
+
+.a {
+    margin-top: 35.5px;
+    background-color: #F5F3F7;
+
+}
+
+.iconoA {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 4.5px;
+
+    border-radius: 5px;
+
+}
+
+.iconoB {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 4.5px;
+
+    border-radius: 5px;
+
+
+}
+
+.iconoC {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 4.5px;
+
+    border-radius: 5px;
+
+}
+
+.enlace {
+    text-decoration: none;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    color: black;
+
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+/* parte izquierda */
+
+.lecciones {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    gap: 30px;
+
+    width: 1100px;
+    height: 540px;
+
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.seccion1 {
+    position: relative;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    background-color: #8B5FBF;
+    border-radius: 10px;
+}
+.seccion1 p{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    font-size: 20px;
+}
+
+.s1 {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 19px;
+
+}
+
+.t1 {
+    margin-top: px;
+    margin-left: 30px;
+    font-family: roboto condensed;
+    font-size: 14px;
+}
+
+
+
+.cur1 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    background-color: #E9E4ED;
+    border-radius: 10px;
+}
+
+.cur2 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    background-color: #E9E4ED;
+    border-radius: 10px;
+}
+
+.cur3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+    background-color: #E9E4ED   ;
+    border-radius: 10px;
+}
+
+.lecciones img {
+    size: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.lecciones span {
+
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.lecciones strong {
+    font-family: Roboto condensed;
+    font-size: 17px;
+}
+
+.btn span {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 1px;
+    text-decoration: none;
+    font-family: roboto condensed;
+    text-align: center;
+}
+
+ 
+.btn {
+    width: 100px;
+    height: 40px;
+    top: 30px;
+    left: 40px;
+
+    color: #000;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.btn::before {
+    border-radius: 15px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 40px;
+    z-index: 1;
+    background-color: rgba(97, 57, 143, 0.1);
+    transition: all 0.3s;
+}
+
+.btn:hover::before {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+}
+
+.btn::after {
+    border-radius: 15px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 40px;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(97, 57, 143, 0.5);
+    transform: scale(1.2, 1.2);
+}
+
+.btn:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+
+.titulos {
+    display: grid;
+    margin-left: 150px;
+    margin-top: -40px;
+    width: 140px;
+}
+
+/* barrra progreso */
+.progress {
+    background: rgba(	74, 74, 74, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 20px;
+    width: 280px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #9A73B5;
+    border-radius: 100px;
+    background: #9A73B5;
+    height: 10px;
+    width: 0;
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 68%;
+    }
+}

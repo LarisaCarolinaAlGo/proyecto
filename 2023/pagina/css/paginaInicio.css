@@ -1,0 +1,326 @@
+
+body{
+    margin:0;
+  padding:0;
+}
+
+
+.navegador{
+
+    display: flex;
+    width: 100%;
+    height: 100px;
+
+    flex-direction: row;
+
+
+
+}
+
+.icon{
+
+    width: 110px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+    background-image: url("logoMoneyMentor.png");
+
+}
+
+
+a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.opciones{
+    float: left;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 600px;
+    margin-left: 700px;
+    margin-bottom: 50px;
+    margin-top: -60px;
+    color: black;
+
+}
+
+
+
+.imagen{
+    float: right;
+
+    width: 550px;
+    height: 425px;
+    margin-right: 125px ;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+
+    background-image: url("purple5.jpg");
+    background-size: cover;
+}
+
+
+.inicio{
+    float: left;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+
+    width: 400px;
+    height: 450px;
+    margin-left: 100px;
+
+
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+p{
+    margin-left: 20px;
+    margin-top: 125px;
+    font-weight: bold;
+
+}
+
+.botonInicio{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 225px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 8px;
+
+    background-color: #8B5FBF;
+
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+}
+
+/* pagina registro */
+
+.parteRegistro{
+    width: 1403px;
+    height: 673px;
+    margin-top: 573px;
+
+    background-image: url("purple2.jpg");
+    background-size: cover;
+}
+
+.panelRegistro{
+    float: right;
+
+    width: 400px;
+    height: 480px;
+    margin-right: 100px;
+    margin-top: 105px;
+
+    background-color: white;
+    border-radius: 5px;
+}
+
+.switchsito{
+    width: 355px;
+    height: 100px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.datosUsuario{
+    width: 300px;
+    height: 225px;
+
+    margin-top: 0px;
+    margin-left: 70px;
+
+  }
+
+  .form{
+    font-family: Roboto Condensed;
+    font-size: 14px;
+
+  }
+
+  .datos{
+    border: 0;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 200px;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+  }
+
+  .checkbox{
+    margin-left: 50px;
+  }
+
+
+
+.botonRegistro{
+    width: 355px;
+    height: 80px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.terms{
+  font-family: Roboto condensed;
+  font-size: 14px;
+}
+
+.botonsin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    height: 40px;
+    margin-left: 128px;
+    margin-top: 25px;
+    border-radius: 15px;
+
+    background-color: #8B5FBF;
+
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    color: white;
+}
+/* switch */
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+
+    margin-top: 14px;
+    margin-left: 80px;
+    width: 195px;
+    height: 50px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    padding: 9px 4px;    
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #E9E4ED;
+    -webkit-transition: .4s;
+    transition: .4s;
+    text-align: center;
+    
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "Sign-In";
+    text-align: center;
+    height: 35px;
+    width: 130px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #8B5FBF;
+    -webkit-transition: .4s;
+    transition: .4s;
+    font-family: Roboto Condensed;
+    font-size: 15px;
+    color: white;
+
+    padding-top: 15px;
+  }
+  
+  input:checked + .slider {
+    background-color: #E9E4ED;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #E9E4ED;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(71px);
+    -ms-transform: translateX(71px);
+    transform: translateX(71px);
+    content: "Sign-Up";
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    color: white;
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 23px;
+  }
+  
+  .slider.round:before {
+    border-radius: 23px;
+    margin-top: 10px;
+    }
+
+    
+    .container a
+    {
+        color: #000;
+        text-decoration: none;
+        font: 20px Roboto Condensed;
+        margin: 0px 10px;
+        padding: 10px 10px;
+        position: relative;
+        cursor: pointer;
+    }
+
+/* Border from Y to X  */
+.borderYtoX a:before, div.borderYtoX a:after
+{
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: #000;
+    transition: all 0.3s;
+}
+
+.borderYtoX a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+.borderYtoX a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+.borderYtoX a:hover:before, div.borderYtoX a:hover:after
+{
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}

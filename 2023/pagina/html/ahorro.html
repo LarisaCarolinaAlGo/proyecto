@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorro</title>
+    <link rel="stylesheet" href="../css/ahorro.css">
+</head>
+<body>
+
+    <aside class="barraHerramientas">
+        <div class="herramientas a">
+            <div class="iconoA">
+                <img src="../analisis.png" alt="">
+            </div>
+        </div>
+        <div class="herramientas btnb">
+            <div class="iconoB">
+                <img src="../birrete.png" alt="">
+            </div>
+        </div>
+        <div class="herramientas btnc">
+            <div class="iconoC">
+                <img src="../hucha.png" alt="">
+            </div>
+        </div>
+    </aside>
+    <div class="ladoIzq">
+        <div class="grafica">
+            <div>
+                <canvas id="myChart"></canvas>
+            </div>
+              <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                <script>
+                // Obtén el elemento canvas
+                var ctx = document.getElementById('myChart').getContext('2d');
+
+                // Configura los datos de la gráfica
+                var data = {
+                    labels: ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'],
+                    datasets: [{
+                    label: 'Ahorro',
+                    data: [0, 0, 0, 0, 0, 0, 0],
+                    backgroundColor: 'rgba(139, 95, 191, 0.5)',
+                    borderColor: 'rgb(233, 228, 237, 1)',
+                    pointBackgroundColor: 'rgba(139, 95, 191, 0.5)',
+                    pointBorderColor: '#fff',
+                    pointBorderWidth: 2,
+                    pointRadius: 5
+                    }]
+                };
+
+                // Configura las opciones de la gráfica
+                var options = {
+                    responsive: true,
+                    scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+
+                    }
+                };
+
+                // Crea la instancia de la gráfica
+                var myChart = new Chart(ctx, {
+                    type: 'line',
+                    data: data,
+                    options: options
+                });
+                </script>
+
+              
+        </div>
+    </div>
+
+    <div class="ladoDer">
+        <div class="panelRegistro">
+            <div class="inp">
+                <span class="registro">Registro</span> </br>
+                <input class="b" type="text" placeholder="Ingresos" id="ingresos"> </br>
+                <input class="reg" type="text" placeholder="Egresos" id="egresos"> </br>
+                <div class="btn btn-three" onclick="subir()"><span>SUBIR</span></div>
+            </div>
+            
+        </div>
+
+        <div class="metas">
+            <p class="counter" id="meta">0.00</p>
+            <span id="objetivo">Meta </span>
+        </div>
+     
+    </div>
+    
+
+   
+</div>
+</body>
+<script src="../javaScript/ahorro.js"></script>
+
+</html>
